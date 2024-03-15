@@ -7,9 +7,13 @@ interface IDigitalAsset {
 }
 
 abstract contract AbstractAsset is IDigitalAsset {
-  string internal _name;
-  address internal _owner;
+  string internal name;
+  address internal owner;
+  constructor(string memory _name){
+  name = _name;
+  owner = msg.sender;
 
+}
   function getDetails() external view override returns (string memory name, address owner) {
     name = _name;
     owner = _owner;
