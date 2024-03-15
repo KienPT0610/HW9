@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HomeWork9.sol": "IDigit"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HomeWork9.sol": {
+			"keccak256": "0x7216631b33384eca26539167bc5316871f6367b9198c6b4771caa1f48631ee21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49790a1f185084134ec48121afafdec46fa0e9c4414c4ab45fdc8556bc56f9a1",
+				"dweb:/ipfs/QmPCagaPRT7sBg1v6XK4vWK23VNFUFUy3eh7F6efBQmR83"
+			]
+		}
+	},
+	"version": 1
+}
