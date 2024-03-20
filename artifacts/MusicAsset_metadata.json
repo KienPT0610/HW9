@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nameSingle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_nameSong",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "getDetails",
 				"outputs": [
@@ -37,7 +53,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "newName",
+						"name": "newNameSingle",
 						"type": "string"
 					}
 				],
@@ -60,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"HomeWork9.sol": "AbstractAsset"
+			"HomeWork9.sol": "MusicAsset"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
